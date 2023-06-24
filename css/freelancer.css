@@ -56,6 +56,10 @@ a.orange-link {
     color: #7d384c;
 }
 
+ul{
+    list-style-position: inside;
+}
+
 h1,
 h2,
 h3,
