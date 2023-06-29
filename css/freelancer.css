@@ -142,6 +142,10 @@ hr.star-grey:after {
 	height: 250pt;
 }
 
+.img-blog-square{
+	height: 300pt;
+}
+
 header {
     text-align: center;
     color: #fff;
