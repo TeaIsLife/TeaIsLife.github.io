@@ -140,10 +140,12 @@ hr.star-grey:after {
 
 .img-blog-portrait{
 	height: 250pt;
+	object-fit: scale-down;
 }
 
 .img-blog-square{
 	height: 300pt;
+	object-fit: scale-down;
 }
 
 header {
