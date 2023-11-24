@@ -1,0 +1,52 @@
+
+.book-box {
+    background-clip: content-box, padding-box;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.book-box-blue {
+    background-color: #323670;
+    color: #fff;
+}
+
+.book-box-red {
+    background-color: #77384f;
+    color: #fff;
+}
+
+.book-box div {
+    padding: 15px;
+}
+
+.book-box a {
+    color: #323670;
+}
+
+.btn-blue {
+    background-color: #16c0ec;
+    border-color: #16c0ec;
+    color: white !important;
+}
+
+.book-box h4 {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .book-cover {
+        position: absolute;
+        top: -80px;
+        left: 20%;
+        max-height: 350px;
+    }
+}
+
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+
+.series-title{
+	padding-bottom: 0px;
+}

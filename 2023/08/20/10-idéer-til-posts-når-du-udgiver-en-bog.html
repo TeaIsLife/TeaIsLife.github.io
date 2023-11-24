@@ -34,7 +34,10 @@
 
     <!-- Custom CSS -->
     <link href="/css/freelancer.css" rel="stylesheet">
-
+	<link href="/css/timeline.css" rel="stylesheet">
+	<link href="/css/book.css" rel="stylesheet">
+	<link href="/css/splide.min.css" rel="stylesheet">
+	
     <!-- Custom Fonts -->
     <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -77,7 +80,7 @@
                         <a href="/index#forfatteren">Forfatteren</a>
                     </li>
 					<li class="page-scroll">
-                        <a href="/index#udgivelser">Udgivelser</a>
+                        <a href="/bog">Udgivelser</a>
                     </li>
                     <!--<li class="page-scroll">
                         <a href="#portfolio">Bøger</a>
@@ -286,6 +289,20 @@ Du skal ikke føle dig forpligtet til at udføre alle 10 idéer, men snarere se 
 
     <!-- Custom Theme JavaScript -->
     <script src="/js/freelancer.js"></script>
+	
+	<!-- Gallery/slideshow -->
+	<script src="/js/splide.min.js"></script>
+	<script>
+		var myEle = document.getElementById("image-carousel");
+		if (myEle)
+			new Splide( '#image-carousel' ).mount();
+		var myEle = document.getElementById("image-carousel-2");
+		if (myEle)
+			new Splide( '#image-carousel-2' ).mount();
+		var myEle = document.getElementById("image-carousel-3");
+		if (myEle)
+			new Splide( '#image-carousel-3' ).mount();
+	</script>
 	
 	<!-- Metricool tracking -->
 	<script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"edc2a13ebc93d45548d3588ed7c802e2"})});</script>
