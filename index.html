@@ -81,20 +81,17 @@
 					<li class="page-scroll">
                         <a href="#udgivelser">Udgivelser</a>
                     </li>
-					<!--<li class="page-scroll">
-                        <a href="/bog">Udgivelser</a>
-                    </li>-->
-                    <!--<li class="page-scroll">
-                        <a href="#portfolio">Bøger</a>
-                    </li>-->
+                    <li class="page-scroll">
+                        <a href="blog.html">Blog</a>
+                    </li>
 					<li class="page-scroll">
                         <a href="#nyhedsbrev">Nyhedsbrev</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#kontakt">Kontakt</a>
                     </li>
-                    <li class="page-scroll blog-nav">
-                        <a href="blog.html">Blog</a>
+					<li class="page-scroll blog-nav">
+                        <a href="/authortoolsbundle">Author Tools Bundle</a>
                     </li>
                 </ul>
             </div>
@@ -118,6 +115,31 @@
                         <hr class="star-light">
                         <span class="skills"></span>
                     </div>
+					<div class="splide-wrapper skyblue">
+						<section id="news-carousel"  class="splide" aria-label="News" style="padding: 10px 0">
+						  <div class="splide__track">
+								<ul class="splide__list">
+									<li class="splide__slide">
+										<a href="authortoolsbundle.html"><img src="img/Front page banner/Banner_Author Tools Bundle.png" /></a>
+									</li>
+									<li class="splide__slide">
+										<a href="2024/12/01/Checkliste-over-filterord-fyldord-og-misbrugsord.html"><img src="img/Front page banner/Banner_checkliste over filterord, fyldord og misbrugsord.png" /></a>
+									</li>
+									<li class="splide__slide">
+										<a href="trinbyen.html"><img src="img/Front page banner/Banner_Trinbyen-serien.png" /></a>
+									</li>
+								</ul>
+						  </div>
+						</section>
+						<script src="/js/splide.min.js"></script>
+						<script>
+							var splide = new Splide( '#news-carousel', {
+							  type   : 'loop',
+							  autoplay: true,
+							} );
+							splide.mount();
+						</script>
+					</div>
                 </div>
             </div>
         </div>
